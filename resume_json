@@ -1,0 +1,28 @@
+{
+  "personalInfo": {
+    "name": "Jawahar",
+    "address": { "city": "kvp", "district": "tuticorin", "state": "tamilnadu" },
+    "gmail": "jaw@gamil.com"
+  },
+  "educationInfo": [
+    {
+      "institution": "Mahendra  Engineering college",
+      "course": "B.E. Mechanical",
+      "percentage": "7.56",
+      "year": "2020"
+    },
+    {
+      "institution": "Mahendra  Engineering college",
+      "course": "B.E. Mechanical",
+      "percentage": "7.56",
+      "year": "2020"
+    },
+    {
+      "institution": "Mahendra  Engineering college",
+      "course": "B.E. Mechanical",
+      "percentage": "7.56",
+      "year": "2020"
+    }
+  ],
+  "technicalSkills": ["javascript", "HTML", "CSS"]
+}
