@@ -1,0 +1,38 @@
+let cars = [
+    {
+      "color": "purple",
+      "type": "minivan",
+      "registration": new Date('2017-01-03'),
+      "capacity": 7
+    },
+    {
+      "color": "red",
+      "type": "station wagon",
+      "registration": new Date('2018-03-03'),
+      "capacity": 5
+    }
+]
+console.log(cars.length) 
+for (let i = 0; i < cars.length; i++) {
+    console.log (cars[i])
+}
+
+const person = {fname:"John", lname:"Doe", age:25};
+
+for (let x in person) {
+   console.log(person[x]);
+}
+
+let language = "JavaScript";
+
+for (let x of language) {
+   console.log(x);
+}
+let multiply = 1;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  multiply= multiply*item;
+}
+console.log(multiply)
